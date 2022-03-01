@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abiturient registiratsiya oynasi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js_file.js"></script>
+</head>
+<body>
+    <section id="asos">
+        <div class="header-back">
+        <div class="container">
+            <header class="grid">
+                <div class="title">
+                    <img src="images/logo.webp" alt=""> 
+                   <div class="logo-text"> <h4>O’ZBEKISTON - KOREA XALQARO UNIVERSITETI</h4>   </div>
+                </div>
+            <div class="contact-link">
+                <a href="#">
+                    <img src="images/envelope.svg" alt="">
+                    <p>info@kuif.uz</p>
+                </a>
+                <a href="#">
+                    <img src="images/phone.svg" alt="">
+                    <p>+998(90) 123 45 67</p>
+                </a>
+                <a href="#">
+                   <img src="images/profile.svg" alt="">
+                        
+                </a>
+                <div class="flag">
+                <a href="#">
+                    <img class="flaguz" src="images/uzb.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="flagkorea" src="images/korea.png" alt="">
+                </a>
+                <img class="flag-dropdown" onclick="flagAnimation()"  style="cursor: pointer;" src="images/arrow-down.svg" alt="">
+         
+            </div>
+             </div>
+        </header>
+    </div>
+        </div>
+        <div class="navbar">
+            <div class="container">
+           <div class="bars" onclick="mobileBars()">
+               <div class="line1"></div>
+               <div class="line2"></div>
+               <div class="line3"></div>
+           </div>
+            <div class="navbar-menu">
+                <a class="active" href="Abiturient registiratsiya oynasi.html">BOSH SAHIFA</a>
+                <a href="Biz-haqimizda.html">BIZ HAQIMIZDA</a>
+                <a href="Bank ma'lumotlari.html">BANK MA'LUMOTLARI</a>
+                <a href="Yangiliklar.html">YANGILIKLAR</a>
+                <a href="Bog'lanish.html">BOG'LANISH</a>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+        <div class="page-name">
+            <h1>ABITURIENT REGISTIRATSIYA OYNASI</h1>
+             <p><a href="#">BOSH SAHIFA</a> / ABITURIENT REGISTIRATSIYA OYNASI</p>
+        </div>
+        <h1 class="oyna-sahifasi">ABITURIENT TOPSHIRADIGAN HUJJATLAR</h1>
+        <div class="royhatdan-otish">
+            <div class="abiturient-malumot">
+                <h4>ABITURIENT HAQIDA MA'LUMOT</h4>
+                <label>Ismi</label><input type="text" placeholder="Sizning ismingiz">
+                <label>Familiyasi</label><input type="text" placeholder="Sizning familiyangiz">
+                <label>Otasini ismi</label><input type="text" placeholder="Otangizning ismi">
+                <label>Tug'ilgan sanasi</label><input type="date" placeholder="Sizning tug'ulgan sananggiz">
+                <label>Millati</label><select>
+                    <option value="">uzbek</option>
+                    <option value="">rus</option>
+                    <option value="">tojik</option>
+                </select>
+            </div>
+            <div class="pasport-malumot">
+                <h4>ABITURIENT PASPORT MA'LUMOT</h4>
+                <label for="raqam" class="pasport-label">Pasport seriyasi va raqam</label><input type="text" id="raqam" placeholder="Sizning Pasport seriyasi va raqamingiz ">
+                <div class="yuklash">
+                    <label class="pasport-nusxa">Pasport nusxasi</label>
+                    <button class="button1" onclick="button1()">+ Yuklash</button>
+                    <label class="rasm-nusxa">
+                        Rasm 3,5 x 4,5
+                    </label>
+                    <button class="button2" onclick="button2()">+ Yuklash</button>
+                    <input type="file" class="buttonYuklash1">
+                    <input type="file" class="buttonYuklash2">
+                </div>
+                <label for="">Yashash manzili</label>
+                <select>
+                    <option value="">Andijon</option>
+                    <option value="">Farg'ona</option>
+                    <option value="">Namangan</option>
+                </select>
+                <label for="">Yashash tumani</label>
+                <select>
+                    <option value="" >buloqboshi</option>
+                    <option value="" selected>Marhamat</option>
+                    <option value="">oltiariq</option>
+                </select>
+                <label for="">Yashash mahallasi</label><input type="text" placeholder="Sizning yashash mahallangiz" name="">
+                <label>Telefon nomer</label><input type="text" placeholder="Sizning telefon nomeringiz">
+            </div>
+            <div class="foto">
+                <!-- <img class="foto2" src="" alt=""> -->
+                <img src="images/img-example.webp" alt=""></div>
+        </div>
+        <div class="reg__last_edu">
+                <h4>ABITURIENT TUGATGAN O'QUV YURT</h4>
+<div class="grid1">
+    <div class="edu">
+        <label>Tugatgan o'quv yurti nomi</label><br>
+<input type="text" placeholder="Sizning tamomlagan o'quv yurtni nomi">
+    </div>
+    <div class="tugatgan-yil">
+        <label>Tamomlagan yili</label><br>
+        <input type="text" placeholder="Tamomlagan yil">
+    </div>
+</div>
+<div class="grid2">
+    <div class="ortacha-baho">
+        <label>Ilovada olgan o'rtacha baho</label><br>
+        <input type="text" placeholder="Ilovadagi olgan baholaringiz">
+    </div>
+    <div class="baho5">
+        <label>5 baholar soni</label><br>
+        <input type="text" placeholder="Sizning 5 baholaringiz">
+    </div>
+    <div class="baho4">
+        <label>4 baholar soni</label><br>
+        <input type="text" placeholder="Sizning 4 baholaringiz">
+    </div>
+    <div class="baho3">
+        <label>3 baholar soni</label><br>
+        <input type="text" placeholder="Sizning 3 baholaringiz">
+    </div>
+</div>
+<div class="button3">
+    <label>Diplom va ilovani yuklash</label><br>
+    <button class="button1" onclick="button3()">+ Yuklash</button>
+    <input type="file" class="buttonYuklash3">
+</div>
+        </div>
+        <div class="fakultet">
+            <h4>ABITURIENT TANLAGAN YO'NALISH</h4>
+            <div class="yonalish">
+            <div class="texnika-yonalish">
+                <label for="">Texnika muhandislik yo'nalishlar</label>
+            <select name="" id="">
+                <option value="">TATU</option>
+                <option value="">FDU</option>
+                <option value="">ADU</option>
+            </select>
+            </div>
+            <div class="ijtimoiy-yonalish">
+            <label for="">Ijtimoiy gumonitar yo'nalishlar</label>
+            <select name="" id="">
+                <option value="">TATU</option>
+                <option value="">FDU</option>
+                <option value="">ADU</option>
+            </select>
+            </div>
+        </div>
+        </div>
+        <div class="bank-xizmati">
+            <h4>HUJATLARNI QABUL QILISH UCHUN TO’LOV USULI </h4>
+           <div class="pay-btns">
+            <button class="btn-bank">Bank</button>
+            <button class="btn-payme"><img src="images/payme.png" alt=""></button>
+            <button class="btn-save">Saqlash</button>
+            <button class="btn-print">Chop etish</button>
+            <input type="checkbox" id="check"><label for="check">Shartlar bilan tanishib chiqdim shahsiy ma’lumotlarimdan foydalanishga roziman.
+            </label>
+        </div>
+    </div></div>
+    <div class="footer-bg">
+    <div class="container">
+        <div class="footer-link">
+            <div class="title">
+            <img src="images/logo.webp" alt=""> 
+            <div class="logo-text"> <h4>O’ZBEKISTON - KOREA XALQARO UNIVERSITETI</h4>   </div>
+        </div>
+        <div class="menyu">
+            <h6>MENYU</h6>
+            <a class="active" href="Abiturient registiratsiya oynasi.html">BOSH SAHIFA</a>
+            <a href="Biz-haqimizda.html">BIZ HAQIMIZDA</a>
+            <a href="Bank ma'lumotlari.html">BANK MA'LUMOTLARI</a>
+            <a href="Yangiliklar.html">YANGILIKLAR</a>
+        </div>
+        <div class="manzil">
+            <h6>MANZIL</h6>
+            <a href="#"><img src="images/envelope-white.svg" alt=""><p>info@kuif.uz</p></a>
+            <a href="#"><img src="images/tel-white.svg" alt="">
+                <p>+998 (90) 123 45 67</p>
+            </a>
+            <a href="https://goo.gl/maps/mWTFoWP5NjveXvW38"><img src="images/location-white.svg" alt=""><p>Farg'ona shahri, A.Navoiy ko'chasi 55-B uy</p></a>
+        </div>
+        <div class="ijtimoiy-tarmoqlar">
+            <h6>IJTIMOIY TARMOQLAR</h6>
+            <a href="#">Instagram</a>
+            <a href="#">Telegram</a>
+            <a href="#">Facebook</a>
+        </div>
+        <div class="footer">
+            <p>2020 © KUIF, Barcha huquqlar himoyalangan</p>
+            <p>Foydalanish shartlari</p>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+</body>
+</html>

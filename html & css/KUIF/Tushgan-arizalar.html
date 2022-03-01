@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushgan arizalar</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+<style>
+    .d-none{
+        display: none!important;
+    }
+
+    .d-block{
+        display: block!important;
+    }
+</style>
+
+<!-- <script type="text/javascript" src="jquery-3.3.1.min.js"></script> -->
+<script type="text/javascript" src="js_file.js"></script>
+</head>
+<body>
+    <section id="asos-ariza">
+        <div class="menu-admin">
+    <div class="admin-menu">
+        <div class="admin-profil">
+            <div class="admin-img">
+                <img src="images/man.jpg" alt="">
+            </div>
+            <div class="admin-name">
+                <h1>Bektayev
+                    AsadbeK</h1>
+            </div>
+        </div>
+        <ul>
+            <li><a href="Tushgan-arizalar.html"  class="admin-panel-active"><img src="images/navbar-1.svg" alt=""><p>Tushgan arizalar</p></a></li>
+            <li><a href="Statistika.html"><img src="images/navbar-2.svg" alt=""><p>Statistika</p></a></li>
+            <li><a href="yangiliklar-admin.html"><img src="images/navbar-3.svg" alt=""><p>Yangliklar</p></a></li>
+            <li><a href="Adminlar.html"><img src="images/navbar-4.svg" alt=""><p>Adminlar</p></a></li>
+            <li><a href="#"><img src="images/navbar-5.svg" alt=""><p>Kredentsiyalar</p></a></li>
+            <li><a href="#"><img src="images/navbar-6.svg" alt=""><p>Tushumlar</p></a></li>
+            <li><a href="Bank ma'lumotlari.html"><img src="images/navbar-7.svg" alt=""><p>Bank ma’lumotlari</p></a></li>
+        </ul>
+    </div>
+</div>
+        <div class="flag-exit">
+            <div class="flag">
+                <a href="#">
+                    <img class="flaguz" src="images/uzb.png" alt="">
+                </a>
+                <a href="#">
+                    <img class="flagkorea" src="images/korea.png" alt="">
+                </a>
+                <img class="flag-dropdown" onclick="flagAnimation()" style="cursor: pointer;"  src="images/arrow-down.svg" alt="">
+            </div>
+        <button class="button-exit">Chiqish</button>
+        </div>
+        <div class="ariza-table">
+            <div class="ariza-header">
+                <div class="admin-row1">
+                    <h1>TUSHGAN ARIZALAR</h1>
+                    <div class="row1-item2 ariza-row1-iteam2">
+                       <a href="#"> <button class="button-admin-add"><span>+</span>Yaratish</button></a>
+                        <div class="export" onclick="exportAnimation()">
+                            <img src="images/export-icon-1.svg" alt="">
+                            <p>Export</p>
+                            <img src="images/export-icon-2.svg" class="ExportArrowDown" alt="">
+                            <ul class="exportIteam">
+                                <li><a href="#"><img src="images/word.svg" alt=""> Word</a></li>
+                                <li><a href="#"><img src="images/excel.svg" alt=""> Excel</a></li>
+                                <li><a href="#"><img src="images/pdf.svg" alt=""> Pdf</a></li>
+                            </ul>
+                        </div>
+                        <label for="admin-value">Ko’rsatish</label>
+                        <input type="number" id="admin-value" value="10">
+                    </div>
+                </div>
+                <ul class="ariza-header-iteam">
+                   <li></li> 
+                   <li><input type="text"></li> 
+                   <li><input type="text"></li> 
+                   <li><input type="text"></li> 
+                   <li><select>
+                       <option value=""></option>
+                       <option value="">Maktabgacha ta'lim</option>
+                       <option value="">Turizim menijment</option>
+                       <option value="">Menejment va kompyuterlashtirilgan buxgalteriya hisobi</option>
+                   </select></li> 
+                   <li><input type="date" value="2021-06-01"></li> 
+                   <li>
+                       <select>
+                           <option></option>
+                           <option value="">To'lov qilinmagan</option>
+                           <option value="">To'lov qilingan</option>
+                        </select>
+            </li> 
+                <li>
+                    <select>
+                        <option value=""></option>
+                        <option value="">(qiymatlanmagan)	</option>
+                        <option value="">Talabalikka tavfsiya etildi</option>
+                        <option value="">Talabalikka tavfsiya etilmadi</option>
+                </select>
+            </li> 
+                </ul>
+            </div>
+            <div class="ariza-royhat">
+            <ul class="form-header-ariza">
+                <li><input type="checkbox"></li>
+                <li>№</li>
+                <li>Shaxsiy ID</li>
+                <li>F.I.SH.</li>
+                <li>Tanlagan yo’nalishi</li>
+                <li>Ro’yxatdan o’tgan vaqti</li>
+                <li>To’lov holati</li>
+                <li>Qabul holati</li>
+                <li></li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>1</li>
+                <li>admin</li>
+                <li><a href="#"  style="color: #374C91">Adminstrator</a></li>
+                <li>Maktabgacha ta'lim</li>
+                <li>05.07.2021</li>
+                <li>To’lov qilinmagan</li>
+                <li>(qiymatlanmagan)</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>2</li>
+                <li>1592970115636</li>
+                <li><a href="#" style="color: #374C91;">Mohlaroy</a></li>
+                <li>Turizm menejmenti</li>
+                <li>03.04.2021</li>
+                <li>To’lov qilinmagan</li>
+                <li>(qiymatlanmagan)</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon "></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>3</li>
+                <li>1592976640176</li>
+                <li><a href="#" style="color: #374C91;">Hayotjonov Ubaydullo</a></li>
+                <li>Menejment va kompyuterlashtirilgan buxgalteriya hisobi</li>
+                <li>27.04.2021</li>
+                <li>To’lov qilinmagan</li>
+                <li>Talabalikka tavsiya etilmadi!</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon "></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>4</li>
+                <li>1592979722293</li>
+                <li><a href="#" style="color: #374C91;">KHOLMATOV RUSTAMJON</a></li>
+                <li>Mashinasozlik muhandisligi</li>
+                <li>14.04.2021</li>
+                <li>To’lov qilingan</li>
+                <li>Talabalikka tavsiya etilmadi!</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>5</li>
+                <li>1592980580859</li>
+                <li><a href="#" style="color: #374C91;">Xolmatov Xabibullo Ibroximjon o'g'li</a></li>
+                <li>Elektrotexnika va elektronika muhandisligi</li>
+                <li>08.04.2021</li>
+                <li>To’lov qilinmagan</li>
+                <li>Talabalikka tavsiya etilmadi!	</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>6</li>
+                <li>1592980695831</li>
+                <li><a href="#" style="color: #374C91;">Sadaliyeva Oyimbaxor Nosirjon qizi </a></li>
+                <li>Kelajak avtomobilsozligi muhandisligi</li>
+                <li>Kelajak avtomobilsozligi muhandisligi</li>
+                <li>To’lov qilinmagan</li>
+                <li>Talabalikka tavsiya etilmadi!	</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>7</li>
+                <li>1592986590270</li>
+                <li><a href="#" style="color: #374C91;">Nodirbek Adakhamjonov</a></li>
+                <li>Qurilish muhandisligi</li>
+                <li>09.04.2021</li>
+                <li>To’lov qilingan</li>
+                <li>Talabalikka tavsiya etilmadi!	</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>8</li>
+                <li>1592988949814</li>
+                <li><a href="#" style="color: #374C91;">SAYDIAKHMEDOV SAIDAKRAM</a></li>
+                <li>Arxitektura muhandisligi</li>
+                <li>25.04.2021</li>
+                <li>To’lov qilingan</li>
+                <li>Talabalikka tavsiya etilmadi!	</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+                
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>9</li>
+                <li>1592988192570</li>
+                <li><a href="#" style="color: #374C91;">Amirov Kamoliddin Mavlon o`g`li</a></li>
+                <li>Kompyuter muhandisligi</li>
+                <li>15.04.2021</li>
+                <li>To’lov qilingan</li>
+                <li>Talabalikka tavsiya etilmadi!	</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ariza-iteam">
+                <li><input type="checkbox"></li>
+                <li>10</li>
+                <li>1592989851209</li>
+                <li><a href="#" style="color: #374C91;">Muhammadjonov Davronbek
+                </a></li>
+                <li>Energetika va kimyo muhandisligi - Yangi fakultet</li>
+                <li>22.04.2021</li>
+                <li>To’lov qilinmagan</li>
+                <li>Talabalikka tavsiya etilmadi!	</li>
+                <li class="configParent">
+                    <i class="fas fa-ellipsis-v toggle-icon"></i>
+                    <ul class="configTable toggled-view">
+                        <li><img src="images/dropdown-edit.svg" alt="" style="width: 18px !important;"><a href="#">Tahrirlash</a></li>
+                        <li><img src="images/dropdown-delete.svg" alt="" style="width: 18px !important;"><a href="#">O'chirish</a></li>
+                        <li><img src="images/qabul.svg" alt=""><a href="#">Qabul qilindi</a></li>
+                         <li><img src="images/tolov.svg" alt=""><a href="#">To'lov qildi</a></li>
+                         <li><img src="images/hujjat.svg" alt=""><a href="#">Hujjat qabul qilindi</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <ul class="number-buttons">
+            <li>
+               <a href="#"><i class="fas fa-angle-double-left"></i> </a> 
+            </li>
+            <li ><a class="number_active" href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">9</a></li>
+            <li><a href="#">10</a></li>
+            <li>
+                <a href="#">
+                <i class="fas fa-angle-double-right"></i>
+            </a>
+            </li>
+        </ul>
+    </div>
+</section>
+<script>
+
+</script>
+</body>
+</html>
